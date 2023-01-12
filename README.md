@@ -8,11 +8,12 @@ $) Table Querying is also done using SQL command
 # Usage
 
 1) clone this repository into your system
-2) activate the virtual environment through ##source /bin/activate
-3) run -> pip -r install requirements.txt
-4) run -> export DB_USERNAME="{your_postgres_username}"
-5) run -> export DB_PASSWORD="{your_postgres_password}"
-4) run -> python app.py
+2) create virtual environment using -> python3 -m venv {virtual_environment name}
+3) activate your virtual environment source /bin/activate
+4) run -> pip -r install requirements.txt
+5) run -> export DB_USERNAME="{your_postgres_username}"
+6) run -> export DB_PASSWORD="{your_postgres_password}"
+7) run -> python app.py
 
 # Endpoints 
 
