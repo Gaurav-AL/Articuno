@@ -1,7 +1,7 @@
 # Articuno Assignment Non Bonus Part
 
-1) Tables are created using SQL command, executed through #### import psycopg2 execute()
-2) Using ##POSTGRESQL database on localhost
+1) Tables are created using SQL command, executed through import psycopg2 execute()
+2) Using POSTGRESQL database on localhost
 3) created under vitrual environment
 $) Table Querying is also done using SQL command
 
@@ -40,7 +40,7 @@ $) Table Querying is also done using SQL command
 # Database Triggers
 There are total of 3 triggers 
 
-#Database Tables
+# Database Tables
 Thera are total of three tables namely users, message, likes
 
 
