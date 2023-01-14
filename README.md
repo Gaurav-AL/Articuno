@@ -48,7 +48,7 @@ Thera are total of three tables namely users, message, likes
 # Articuno bonus Part setup docker db
 
 1) install docker-desktop in your machine - (for window install windows version and for linux/Mac download particular versions)
-2) Once Installed run "docker compose up" where your docker-compose.yml file locates
+2) Once Installed run "docker compose up" where your docker-compose.yml file locates and pgadmin and postgres images will be pulled from docker hub.
 3) Check 127.0.0.1:5432 on browser for postgresql and 127.0.0.1:5050 for pgadmin
 
 
