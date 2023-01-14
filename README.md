@@ -1,6 +1,6 @@
 # Articuno Assignment Non Bonus Part
 
-1) Tables are created using SQL command, executed through import psycopg2 execute()
+1) Tables are created using SQL command, executed through psycopg2 execute()
 2) Using POSTGRESQL database on localhost
 3) created under vitrual environment
 $) Table Querying is also done using SQL command
