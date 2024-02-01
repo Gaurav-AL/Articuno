@@ -91,7 +91,7 @@ def getMessages(username):
 This routes means add likes in message of user username and having message_id 
 '''
 @app.route('/addlikes/<username>/<int:message_id>', methods=['GET'])
-def AddlikeforMessages(username,message_id):
+def addlikeforMessages(username,message_id):
     query = 'INSERT INTO addlikes(msg_id,name) VALUES(%s,%s) RETURNING msg_id'
     cur.execute(query,(message_id,username))
     fetched_id = cur.fetchone()[0]
